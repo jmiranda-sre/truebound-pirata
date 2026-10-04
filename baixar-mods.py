@@ -22,9 +22,11 @@ MANUAL=[
   "https://cdn.modrinth.com/data/kkmrDlKT/versions/KQix25Qc/TerraBlender-fabric-26.2-26.2.0.0.2.jar"),
  ("mods/biolith-fabric-3.7.0-beta.1.jar",237369,
   "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar"),
+ ("mods/ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar",41129,
+  "https://cdn.modrinth.com/data/DzZWws4q/versions/7OZbCRHr/ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar"),
 ]
 # Do mrpack, substituidos por versao manual (ex: biolith quebra com TerraBlender novo)
-REPLACE={"mods/biolith-fabric-3.6.0-alpha.9.jar"}
+REPLACE={"mods/biolith-fabric-3.6.0-alpha.9.jar","mods/ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar"}
 def fetch(url,dest,size=-1):
     if os.path.exists(dest) and size>0 and os.path.getsize(dest)==size:
         return True
