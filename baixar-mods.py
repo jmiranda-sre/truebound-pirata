@@ -20,7 +20,11 @@ MANUAL=[
   "https://cdn.modrinth.com/data/HXF82T3G/versions/MNZPk6V0/BiomesOPlenty-fabric-26.2-26.2.0.0.28.jar"),
  ("mods/TerraBlender-fabric-26.2-26.2.0.0.2.jar",357527,
   "https://cdn.modrinth.com/data/kkmrDlKT/versions/KQix25Qc/TerraBlender-fabric-26.2-26.2.0.0.2.jar"),
+ ("mods/biolith-fabric-3.7.0-beta.1.jar",237369,
+  "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar"),
 ]
+# Do mrpack, substituidos por versao manual (ex: biolith quebra com TerraBlender novo)
+REPLACE={"mods/biolith-fabric-3.6.0-alpha.9.jar"}
 def fetch(url,dest,size=-1):
     if os.path.exists(dest) and size>0 and os.path.getsize(dest)==size:
         return True
@@ -30,6 +34,10 @@ def fetch(url,dest,size=-1):
     return True
 ok,fail=0,0
 for f in idx['files']:
+    if f['path'] in REPLACE:
+        old=os.path.join(base,'instance',f['path'])
+        if os.path.exists(old): os.remove(old); print(f'REMOVIDO {f["path"]} (substituido)',flush=True)
+        ok+=1; continue
     dest=os.path.join(base,'instance',f['path'])
     os.makedirs(os.path.dirname(dest),exist_ok=True)
     if os.path.exists(dest) and os.path.getsize(dest)==f.get('fileSize',-1):

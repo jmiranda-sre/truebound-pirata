@@ -49,7 +49,10 @@ MANUAL = [
   "https://cdn.modrinth.com/data/HXF82T3G/versions/MNZPk6V0/BiomesOPlenty-fabric-26.2-26.2.0.0.28.jar"),
  ("TerraBlender-fabric-26.2-26.2.0.0.2.jar", 357527,
   "https://cdn.modrinth.com/data/kkmrDlKT/versions/KQix25Qc/TerraBlender-fabric-26.2-26.2.0.0.2.jar"),
+ ("biolith-fabric-3.7.0-beta.1.jar", 237369,
+  "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar"),
 ]
+REPLACE = {"biolith-fabric-3.6.0-alpha.9.jar"}  # do mrpack, substituido (quebra com TerraBlender novo)
 UA = {"User-Agent": "Truebound-Server-Setup/1.0"}
 def get(url, dest, size=-1):
     if dest.exists() and size > 0 and dest.stat().st_size == size:
@@ -64,6 +67,13 @@ ok = fail = 0
 for f in idx["files"]:
     name = f["path"].split("/")[-1]
     if not f["path"].startswith("mods/") or name in SKIP:
+        continue
+    if name in REPLACE:
+        old = MODS / name
+        if old.exists():
+            old.unlink()
+            print(f"REMOVIDO mods/{name} (substituido)", flush=True)
+        ok += 1
         continue
     dest = MODS / name
     try:
