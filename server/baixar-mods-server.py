@@ -45,6 +45,8 @@ MANUAL = [
   "https://cdn.modrinth.com/data/e0bNACJD/versions/q5mzi8wy/SereneSeasons-fabric-26.2-26.1.2.0.6.jar"),
  ("GlitchCore-fabric-26.2-26.2.0.0.0.jar", 334860,
   "https://cdn.modrinth.com/data/s3dmwKy5/versions/SDUCBYRU/GlitchCore-fabric-26.2-26.2.0.0.0.jar"),
+ ("BiomesOPlenty-fabric-26.2-26.2.0.0.28.jar", 23252511,
+  "https://cdn.modrinth.com/data/HXF82T3G/versions/MNZPk6V0/BiomesOPlenty-fabric-26.2-26.2.0.0.28.jar"),
 ]
 UA = {"User-Agent": "Truebound-Server-Setup/1.0"}
 def get(url, dest, size=-1):

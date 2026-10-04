@@ -6,9 +6,9 @@
   "loader": "fabric-loader 0.19.3",
   "source": "https://modrinth.com/modpack/truebound",
   "mrpack": "Truebound.mrpack",
-  "mods": 73,
+  "mods": 74,
   "resourcepacks": 26,
   "shaderpacks": 8,
   "totalSizeMB": 405.7,
-  "addedManual": ["dynamiccrosshair-9.14+26.2-fabric.jar (Dynamic Crosshair 9.14, client-side)", "veinminer-fabric-2.12.1.jar (VeinMiner 2.12.1, server+client)", "FallingTree-26.2-25.jar (FallingTree 26.2.0.3, server+client)", "ultimate-daycounter-1.0.jar (Ultimate DayCounter 1.0, server+client)", "SereneSeasons-fabric-26.2-26.1.2.0.6.jar (Serene Seasons 26.1.2.0.6, server+client)", "GlitchCore-fabric-26.2-26.2.0.0.0.jar (GlitchCore, dependencia, server+client)"]
+  "addedManual": ["dynamiccrosshair-9.14+26.2-fabric.jar (Dynamic Crosshair 9.14, client-side)", "veinminer-fabric-2.12.1.jar (VeinMiner 2.12.1, server+client)", "FallingTree-26.2-25.jar (FallingTree 26.2.0.3, server+client)", "ultimate-daycounter-1.0.jar (Ultimate DayCounter 1.0, server+client)", "SereneSeasons-fabric-26.2-26.1.2.0.6.jar (Serene Seasons 26.1.2.0.6, server+client)", "GlitchCore-fabric-26.2-26.2.0.0.0.jar (GlitchCore, dependencia, server+client)", "BiomesOPlenty-fabric-26.2-26.2.0.0.28.jar (Biomes O Plenty 26.2.0.0.28, server+client)"]
 }
