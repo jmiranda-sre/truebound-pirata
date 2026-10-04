@@ -1,0 +1,14 @@
+{
+  "name": "Truebound",
+  "summary": "A True Vanilla Survival Experience (Modrinth, 19.8k downloads, MIT)",
+  "version": "1.2.0",
+  "minecraft": "26.2",
+  "loader": "fabric-loader 0.19.3",
+  "source": "https://modrinth.com/modpack/truebound",
+  "mrpack": "Truebound.mrpack",
+  "mods": 71,
+  "resourcepacks": 26,
+  "shaderpacks": 8,
+  "totalSizeMB": 405.7,
+  "addedManual": ["dynamiccrosshair-9.14+26.2-fabric.jar (Dynamic Crosshair 9.14, client-side)", "veinminer-fabric-2.12.1.jar (VeinMiner 2.12.1, server+client)", "FallingTree-26.2-25.jar (FallingTree 26.2.0.3, server+client)", "ultimate-daycounter-1.0.jar (Ultimate DayCounter 1.0, server+client)"]
+}

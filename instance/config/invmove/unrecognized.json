@@ -1,0 +1,16 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "com.moulberry.flashback.screen.SaveReplayScreen": true,
+    "yourdailymodder.weaponmaster.gui.WeaponMasterScreen": true,
+    "net.minecraft.client.gui.screens.inventory.CrafterScreen": true,
+    "net.minecraft.client.gui.screens.options.OptionsScreen": true,
+    "net.caffeinemc.mods.sodium.client.gui.VideoSettingsScreen": true,
+    "net.minecraft.client.gui.screens.options.SoundOptionsScreen": true,
+    "net.minecraft.client.gui.screens.ConfirmScreen": true,
+    "net.minecraft.client.gui.screens.packs.PackSelectionScreen": true
+  },
+  "hideBackground": {
+    "net.minecraft.client.gui.screens.inventory.CrafterScreen": true
+  }
+}

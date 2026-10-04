@@ -1,0 +1,159 @@
+{
+  "configVersion": 2,
+  "keybinds": {
+    "pause": "p",
+    "copy": "ctrl+c",
+    "paste": "ctrl+v",
+    "undo": "ctrl+z",
+    "redo": "ctrl+y",
+    "mark_in": "i",
+    "mark_out": "o",
+    "clear_in": "ctrl+i",
+    "clear_out": "ctrl+o",
+    "zoom_in": "equal",
+    "zoom_out": "minus",
+    "add_camera": "none",
+    "timeline_zoom_scroll": "scroll",
+    "timeline_move_scroll": "ctrl+scroll",
+    "roll_cw": "none",
+    "roll_ccw": "none"
+  },
+  "recordingControls": {
+    "controlsLocation": "RIGHT",
+    "automaticallyStart": false,
+    "automaticallyFinish": true,
+    "showRecordingToasts": true,
+    "quicksave": false
+  },
+  "recording": {
+    "markDimensionChanges": true,
+    "recordHotbar": false,
+    "localPlayerUpdatesPerSecond": 20,
+    "recordVoiceChat": false,
+    "recordBobbyIntoReplay": false
+  },
+  "exporting": {
+    "defaultExportFilename": "%date%T%time%",
+    "exportRenderDummyFrames": 0
+  },
+  "keyframes": {
+    "defaultInterpolationType": "SMOOTH",
+    "useRealtimeInterpolation": true
+  },
+  "editorMovement": {
+    "flightDirection": "HORIZONTAL",
+    "flightMomentum": 1.0,
+    "flightLockX": false,
+    "flightLockY": false,
+    "flightLockZ": false,
+    "flightLockYaw": false,
+    "flightLockPitch": false
+  },
+  "marker": {
+    "markerOptions1": {
+      "color": "RED",
+      "customRGB": "#FF0000",
+      "savePosition": true,
+      "description": ""
+    },
+    "markerOptions2": {
+      "color": "RED",
+      "customRGB": "#FF0000",
+      "savePosition": true,
+      "description": ""
+    },
+    "markerOptions3": {
+      "color": "RED",
+      "customRGB": "#FF0000",
+      "savePosition": true,
+      "description": ""
+    },
+    "markerOptions4": {
+      "color": "RED",
+      "customRGB": "#FF0000",
+      "savePosition": true,
+      "description": ""
+    }
+  },
+  "advanced": {
+    "disableIncreasedFirstPersonUpdates": false,
+    "disableThirdPersonCancel": false,
+    "synchronizeTicking": false,
+    "ignoredCustomPayloads": ""
+  },
+  "internal": {
+    "recentReplays": [
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\take_5.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\Take_4.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\TAKE_3.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\TAKE_2.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\TAKE_1.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\olhos.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\ghast_explosão.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\MEGA_EXPLOSÃO.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\EXPLOSÃO_NA_AGUA.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\EXPLOSÃO_1.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\PAISAGEM.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\CENA_OLHOS_.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\Cena_lampadas.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\Cena_3.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\Cena_2.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound\\flashback\\replays\\CENA_1.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\CACHOEIURA_+_ABELHAS.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\CHUVA_-_NEVE.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\mecanicas_cavalo.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\mecanicas_jogador_nadando.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\mecanicas_jogador_correndo.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\PVP_MOBS.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\TAKE_2.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\THE_END_SHADERS.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\mecanicas_villagers.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\mecanicas_galinhas.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\mecanicas_abelhas.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\ITENS_FISICA.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\PORTAL_ATIVADO.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\PORTAL_SEM_ATIVAR.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\EXIBINDO_ITENS.zip",
+      "C:\\Users\\jonat\\AppData\\Roaming\\ModrinthApp\\profiles\\Truebound (1)\\flashback\\replays\\VILA_NPC.zip"
+    ],
+    "openedWindows": [],
+    "nextUnsupportedModLoaderWarning": 0,
+    "filterUnnecessaryPackets": true,
+    "signedRenderFilter": false,
+    "viewedTipsOfTheDay": 63,
+    "showTipOfTheDay": false,
+    "nextTipOfTheDay": 1782672639061,
+    "replaySorting": "CREATED_DATE",
+    "sortDescending": true,
+    "defaultOverrideFov": 70.0,
+    "enableOverrideFovByDefault": false
+  },
+  "internalExport": {
+    "resolution": [
+      2560,
+      1440
+    ],
+    "framerate": [
+      60.0
+    ],
+    "projection": "PERSPECTIVE",
+    "orthographicZoom": [
+      1.0
+    ],
+    "resetRng": false,
+    "ssaa": false,
+    "noGui": false,
+    "container": "MP4",
+    "videoCodec": "H264",
+    "selectedVideoEncoder": [
+      0
+    ],
+    "useMaximumBitrate": false,
+    "recordAudio": true,
+    "transparentBackground": false,
+    "audioCodec": "AAC",
+    "stereoAudio": false,
+    "defaultExportPath": "C:\\Users\\jonat\\OneDrive\\Desktop"
+  },
+  "forceDefaultExportSettings": {}
+}

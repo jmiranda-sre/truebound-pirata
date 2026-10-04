@@ -1,0 +1,14 @@
+[Unit]
+Description=Truebound Fabric Minecraft Server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+User=minecraft
+WorkingDirectory=/opt/truebound/server
+ExecStart=/opt/java25/bin/java -Xms4G -Xmx5G -jar fabric-server-launch.jar nogui
+Restart=on-failure
+RestartSec=15
+
+[Install]
+WantedBy=multi-user.target

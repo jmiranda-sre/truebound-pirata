@@ -1,0 +1,4 @@
+# eula.txt — Mojang EULA
+# LEIA: https://aka.ms/MinecraftEULA
+# Troque para eula=true APÓS ler e concordar. Servidor não liga com false.
+eula=false

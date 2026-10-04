@@ -1,0 +1,11 @@
+{
+  "allowMovement": {
+    "net.minecraft.client.gui.screens.PauseScreen": true,
+    "com.moulberry.flashback.screen.SaveReplayScreen": true,
+    "yourdailymodder.weaponmaster.gui.WeaponMasterScreen": true,
+    "net.minecraft.client.gui.screens.inventory.CrafterScreen": true
+  },
+  "hideBackground": {
+    "net.minecraft.client.gui.screens.inventory.CrafterScreen": true
+  }
+}

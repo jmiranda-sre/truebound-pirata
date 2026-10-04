@@ -1,0 +1,51 @@
+# ==== GitHub leve: sem binários (amigos rodam os scripts) ====
+# Cliente — jars/zips baixáveis via baixar-mods.py + Truebound.mrpack
+instance/mods/*.jar
+instance/mods/*.disabled
+instance/resourcepacks/*
+!instance/resourcepacks/.gitkeep
+instance/shaderpacks/*.zip
+# Cache/gerados do Fabric e do jogo
+instance/**/.fabric/
+instance/**/.mixin.out/
+instance/.cache/
+instance/logs/
+instance/crash-reports/
+instance/saves/
+instance/screenshots/
+instance/hs_err_*.log
+instance/*.log
+instance/usercache.json
+instance/bivrik/
+instance/data/
+instance/downloads/
+instance/fancymenu_data/
+instance/server-resource-packs/
+# Servidor — geráveis via fabric-installer + baixar-mods-server.py
+server/server.jar
+server/libraries/
+server/fabric-installer.jar
+server/mods/*.jar
+server/mods/*.disabled
+server/world/
+server/truebound-new/
+server/logs/
+server/crash-reports/
+server/hs_err_*.log
+server/*.log
+server/usercache.json
+server/whitelist.json
+server/ops.json
+server/banned-*.json
+# mrpack original (2.6MB) — PODE commitar, descomente pra ignorar:
+# Truebound.mrpack
+# Cache/gerados extras (runtime)
+**/.voxy/
+**/.fabric/
+**/.mixin.out/
+**/versions/
+command_history.txt
+servers.dat
+servers.dat_old
+fabric-server-launcher.properties
+**/update/

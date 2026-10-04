@@ -1,0 +1,59 @@
+Truebound 1.2.0 — Vanilla expandida (Minecraft 26.2 + Fabric 0.19.3)
+====================================================================
+Fonte oficial: https://modrinth.com/modpack/truebound (MIT, ~19.8 mil downloads)
+Arquivo: Truebound.mrpack (é o modpack — os 101 arquivos, 404 MB, baixam na importação)
+
+O QUE TEM (101 arquivos + 3 manuais):
+- Mods: 70 (67 do pack + 3 manuais: Dynamic Crosshair 9.14 — mira muda conforme o alvo;
+  VeinMiner 2.12.1 Fabric — minera veios inteiros com sneak/custom key;
+  FallingTree 26.2.0.3 — derruba árvore inteira quebrando 1 tronco.
+  Base: Voxy + Chunky p/ render extrema, Iris, Sodium, Presence Footsteps, Sound Physics,
+  Not Enough Animations, Tectonic, Continuity, LambDynamicLights, etc.)
+- Resourcepacks: 26 (Fresh Animations completo, Connected Bricks/Paths/Rocks, Better Lanterns,
+  Nautilus 3D, Boss Bars Reforged, etc. — RESPEITE A ORDEM: https://imgur.com/a/G3qQB1v)
+- Shaders: 8 (Bliss 2.1.2, Complementary Reimagined/Unbound r5.8.1, Solas V3.7, Photon v1.3b,
+  BSL v10.1.3, MakeUp-UltraFast 9.5c, AstraLex V93.0)
+- Configs já ajustadas em instance/config/ + options.txt
+
+COMO INSTALAR NO SKLAUNCHER (instância isolada, sem misturar com .minecraft):
+A) SKLauncher 4.0 (recomendado, baixa o Java sozinho):
+   1. Abra o SKLauncher 4.0 > Instâncias > Importar > selecione Truebound.mrpack
+      (ou arraste o .mrpack pra janela). Suporte Modrinth é nativo da 4.0.
+   2. Se quiser pasta isolada: nas configurações da instância, mude o diretório do jogo para:
+      /home/izeph/Games/Truebound/instance
+      Aguarde baixar os 404 MB. Jogue na instância "Truebound".
+B) SKLauncher 3.2.18 (.jar):
+   1. ATENÇÃO Java: o pack 26.2 + Dynamic Crosshair 9.14 exige Java 25+.
+      Você só tem Java 21. Instale: sudo pacman -S jdk25-openjdk
+      e configure a instância pra usar /usr/lib/jvm/java-25-openjdk.
+      (SKLauncher 4.0 faz isso sozinho — por isso é o recomendado.)
+   2. A 3.2 não importa .mrpack sozinha — use a 4.0 pra importar, OU instale manual:
+      crie perfil Fabric 26.2 + loader 0.19.3 com diretório do jogo em:
+      /home/izeph/Games/Truebound/instance
+      e rode: python3 baixar-mods.py (baixa mods/resourcepacks/shaderpacks pra instance/)
+   3. Pasta instance/ aqui já vem com overrides/ extraídos (config + options.txt).
+      Os mods/shaders baixam pelo script ou pelo launcher.
+
+AVISO DE PERFORMANCE (importante):
+Seu PC: Intel Iris Xe integrada + 15 GB RAM (9.5 GB livres).
+Truebound é leve (Vanilla+), mas Voxy + shaders pesados cobram:
+- Shader inicial: MakeUp-UltraFast ou Bliss Lite. Evite Photon/Solas full de cara.
+- Render distance: 8–12, Voxy só após /chunky radius + /chunky start (veja descrição do modpack).
+- RAM da instância: 4–6 GB (não passe de 8). Iris Xe divide RAM com o sistema.
+- Se ver névoa do Particle Rain: Mods > Particle Rain > engrenagem > desmarque
+  "Biome-specific mist" e "Mist after rain".
+- Retângulo transparente no barco: Resource Packs > botão creeper > Models > All Models >
+  desative boat_patch.jem.
+
+PASTA instance/ aqui é a instância isolada (só Truebound, nada do .minecraft vai nela).
+
+MOD MANUAL:
+- dynamiccrosshair-9.14+26.2-fabric.jar em instance/mods/ (client-side, já vem com API embutida).
+  Não está no .mrpack oficial — se reimportar o pack do zero, copie esse .jar de novo.
+  Config in-game: Mods > Dynamic Crosshair (precisa YACL v3 — já tem 3.9.5).
+- veinminer-fabric-2.12.1.jar (VeinMiner 2.12.1, precisa estar no CLIENTE e no SERVIDOR).
+  Deps já presentes: Fabric API + Fabric Language Kotlin. Opcional: VeinMiner Hotkey (não instalado).
+  Uso padrão: agache (sneak) + quebre 1 bloco do veio. Config: /veinminer ou Mods > VeinMiner.
+- FallingTree-26.2-25.jar (FallingTree 26.2.0.3, precisa estar no CLIENTE e no SERVIDOR).
+  Quebre 1 tronco agachado/em pé conforme config (padrão: quebra árvore inteira, muda no config).
+  Config: config/fallingtree.json gerado no 1º boot + Mods > FallingTree.
