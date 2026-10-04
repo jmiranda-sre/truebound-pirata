@@ -12,6 +12,10 @@ MANUAL=[
   "https://cdn.modrinth.com/data/Fb4jn8m6/versions/sOoH5kkd/FallingTree-26.2-25.jar"),
  ("mods/ultimate-daycounter-1.0.jar",25712,
   "https://cdn.modrinth.com/data/veX8VVuB/versions/PNUOtxTt/ultimate-daycounter-1.0.jar"),
+ ("mods/SereneSeasons-fabric-26.2-26.1.2.0.6.jar",412279,
+  "https://cdn.modrinth.com/data/e0bNACJD/versions/q5mzi8wy/SereneSeasons-fabric-26.2-26.1.2.0.6.jar"),
+ ("mods/GlitchCore-fabric-26.2-26.2.0.0.0.jar",334860,
+  "https://cdn.modrinth.com/data/s3dmwKy5/versions/SDUCBYRU/GlitchCore-fabric-26.2-26.2.0.0.0.jar"),
 ]
 def fetch(url,dest,size=-1):
     if os.path.exists(dest) and size>0 and os.path.getsize(dest)==size:

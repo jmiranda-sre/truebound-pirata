@@ -49,3 +49,4 @@ servers.dat
 servers.dat_old
 fabric-server-launcher.properties
 **/update/
+**/particular_cache/
