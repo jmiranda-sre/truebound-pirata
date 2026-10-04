@@ -24,9 +24,13 @@ MANUAL=[
   "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar"),
  ("mods/ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar",41129,
   "https://cdn.modrinth.com/data/DzZWws4q/versions/7OZbCRHr/ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar"),
+ ("mods/fabric-api-0.161.0+26.2.jar",2566123,
+  "https://cdn.modrinth.com/data/P7dR8mSH/versions/ewUK83HI/fabric-api-0.161.0%2B26.2.jar"),
+ ("mods/PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar",1153533,
+  "https://cdn.modrinth.com/data/QAGBst4M/versions/aNOJuoCM/PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar"),
 ]
 # Do mrpack, substituidos por versao manual (ex: biolith quebra com TerraBlender novo)
-REPLACE={"mods/biolith-fabric-3.6.0-alpha.9.jar","mods/ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar"}
+REPLACE={"mods/biolith-fabric-3.6.0-alpha.9.jar","mods/ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar","mods/fabric-api-0.154.2+26.2.jar","mods/PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}
 def fetch(url,dest,size=-1):
     if os.path.exists(dest) and size>0 and os.path.getsize(dest)==size:
         return True
