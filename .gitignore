@@ -50,3 +50,5 @@ servers.dat_old
 fabric-server-launcher.properties
 **/update/
 **/particular_cache/
+server/.playit-secret
+server/playit.log

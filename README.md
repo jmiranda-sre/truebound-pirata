@@ -32,6 +32,15 @@ chmod +x start.sh
 - **Segurança offline:** qualquer nick entra. Recomendado: `whitelist=true`, `/whitelist add <nick>`, `/op` só confiável.
 - EULA: servidor só liga com `eula=true` após você concordar.
 
+## Subir tudo junto (servidor + playit)
+```bash
+cd server
+./start-tudo.sh   # sobe o túnel, espera ficar online e liga o servidor
+```
+Precisa do secret do agente: `export PLAYIT_SECRET=...` ou arquivo `server/.playit-secret`
+(esse arquivo **não** vai pro git — cada host usa o seu). Sem o playit no ar, o endereço
+público recusa conexão (timeout), mesmo com o servidor rodando.
+
 ## Expor com playit.gg (amigo fora da sua rede, sem port forward)
 Agente já testado no Linux (v1.0.10 em `~/.local/bin/playit` — não vai pro repo).
 1. Crie conta em https://playit.gg/login/create
