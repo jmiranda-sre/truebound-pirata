@@ -32,7 +32,7 @@ reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:128
 renderDistance:32
-simulationDistance:24
+simulationDistance:32
 screenEffectScale:1.0
 soundDevice:""
 vignette:true

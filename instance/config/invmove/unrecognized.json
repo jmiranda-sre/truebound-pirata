@@ -10,7 +10,10 @@
     "net.minecraft.client.gui.screens.ConfirmScreen": true,
     "net.minecraft.client.gui.screens.packs.PackSelectionScreen": true,
     "net.irisshaders.iris.gui.screen.ShaderPackScreen": true,
-    "net.bivrik.fancytoasts.client.gui.screen.FancyToastsScreen": true
+    "net.bivrik.fancytoasts.client.gui.screen.FancyToastsScreen": true,
+    "net.minecraft.client.gui.screens.options.SkinCustomizationScreen": true,
+    "net.minecraft.client.gui.screens.ConfirmLinkScreen": true,
+    "net.minecraft.client.gui.screens.friends.FriendsListConfirmScreen": true
   },
   "hideBackground": {
     "net.minecraft.client.gui.screens.inventory.CrafterScreen": true
