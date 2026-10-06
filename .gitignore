@@ -52,3 +52,4 @@ fabric-server-launcher.properties
 **/particular_cache/
 server/.playit-secret
 server/playit.log
+**/debug/
