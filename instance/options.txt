@@ -31,8 +31,8 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:128
-renderDistance:12
-simulationDistance:12
+renderDistance:32
+simulationDistance:24
 screenEffectScale:1.0
 soundDevice:""
 vignette:true
@@ -191,13 +191,15 @@ key_key.presencefootsteps.debug_toggle:key.keyboard.z
 key_key.punchy.open_main_menu:key.keyboard.f8
 key_key.punchy.inspect:key.keyboard.i
 key_key.trade_cycling.cycle_trades:key.keyboard.c
+key_zoomify.key.zoom:key.keyboard.c
+key_zoomify.key.zoom.secondary:key.keyboard.f6
 key_iris.keybind.reload:key.keyboard.r
 key_iris.keybind.toggleShaders:key.keyboard.k
 key_iris.keybind.shaderPackSelection:key.keyboard.right.bracket
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.fancytoasts.config_menu:key.keyboard.k
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
-soundCategory_master:0.2533112582781457
+soundCategory_master:1.0
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0
