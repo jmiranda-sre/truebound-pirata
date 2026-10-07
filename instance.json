@@ -6,7 +6,7 @@
   "loader": "fabric-loader 0.19.3",
   "source": "https://modrinth.com/modpack/truebound",
   "mrpack": "Truebound.mrpack",
-  "mods": 75,
+  "mods": 76,
   "resourcepacks": 26,
   "shaderpacks": 8,
   "totalSizeMB": 405.7,
@@ -22,6 +22,7 @@
     "fabric-api-0.161.0+26.2.jar (Fabric API atualizado, exigido pelo ClimateRivers novo)",
     "PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar (PuzzlesLib atualizado, exigido pelo ClimateRivers novo)",
     "zoomify-2.16.3+26.2.jar (Zoomify 2.16.3, zoom com scroll, client-side)",
-    "naturalist-2.0.6-fabric-26.2.jar (Naturalist 2.0.6, animais novos, server+client)"
+    "naturalist-2.0.6-fabric-26.2.jar (Naturalist 2.0.6, animais novos, server+client)",
+    "controlify-3.5.3+mc26.2-universal.jar (Controlify 3.5.3, suporte a controle, client-side)"
   ]
 }

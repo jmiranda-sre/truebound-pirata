@@ -20,6 +20,8 @@ MANUAL=[
   "https://cdn.modrinth.com/data/w7ThoJFB/versions/2Qr8jSFc/zoomify-2.16.3%2B26.2.jar"),
  ("mods/naturalist-2.0.6-fabric-26.2.jar",11406328,
   "https://cdn.modrinth.com/data/F8BQNPWX/versions/zrGHo70e/naturalist-2.0.6-fabric-26.2.jar"),
+ ("mods/controlify-3.5.3+mc26.2-universal.jar",6411915,
+  "https://cdn.modrinth.com/data/DOUdJVEm/versions/VDw4mGkG/controlify-3.5.3%2Bmc26.2-universal.jar"),
  ("mods/biolith-fabric-3.7.0-beta.1.jar",237369,
   "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar"),
  ("mods/ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar",41129,
