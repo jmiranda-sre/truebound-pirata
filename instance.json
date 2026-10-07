@@ -6,7 +6,7 @@
   "loader": "fabric-loader 0.19.3",
   "source": "https://modrinth.com/modpack/truebound",
   "mrpack": "Truebound.mrpack",
-  "mods": 83,
+  "mods": 84,
   "resourcepacks": 26,
   "shaderpacks": 8,
   "totalSizeMB": 405.7,
@@ -30,6 +30,7 @@
     "dungeons-and-taverns-stronghold-overhaul-v2.4.0.jar (DnT Stronghold, server+client)",
     "dungeons-and-taverns-pillager-outpost-overhaul-v3.3.jar (DnT Outpost, server+client)",
     "dungeons-and-taverns-woodland-mansion-overhaul-2.1.jar (DnT Mansion, server+client)",
-    "dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar (DnT Swamp Hut, server+client)"
+    "dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar (DnT Swamp Hut, server+client)",
+    "Katters Structures v2.5.jar (Katters Structures 2.5, estruturas, server+client)"
   ]
 }
