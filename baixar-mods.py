@@ -42,6 +42,8 @@ MANUAL=[
   "https://cdn.modrinth.com/data/DoODk4HD/versions/lrndU3YJ/I%20Like%20Vanilla%20v1.5.0b.zip"),
  ("shaderpacks/Visual-Vibrance-v0.3.5a.zip",4571188,
   "https://cdn.modrinth.com/data/l6Uqs2fS/versions/zGC385Y8/Visual-Vibrance-v0.3.5a.zip"),
+ ("shaderpacks/Fantasy Shaders Unbound v1.1.zip",492947,
+  "https://cdn.modrinth.com/data/Q1ICdkzj/versions/xncGr4KP/Fantasy%20Shaders%20Unbound%20v1.1.zip"),
  ("mods/biolith-fabric-3.7.0-beta.1.jar",237369,
   "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar"),
  ("mods/ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar",41129,
