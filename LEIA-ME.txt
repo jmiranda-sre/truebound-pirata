@@ -1,4 +1,4 @@
-Truebound 1.2.0 — Vanilla expandida (Minecraft 26.2 + Fabric 0.19.3)
+Truebound 1.2.0 — Vanilla expandida (Minecraft 26.2 + Fabric 0.19.5)
 ====================================================================
 Fonte oficial: https://modrinth.com/modpack/truebound (MIT, ~19.8 mil downloads)
 Arquivo: Truebound.mrpack (é o modpack — os 101 arquivos, 404 MB, baixam na importação)
@@ -28,7 +28,7 @@ B) SKLauncher 3.2.18 (.jar):
       e configure a instância pra usar /usr/lib/jvm/java-25-openjdk.
       (SKLauncher 4.0 faz isso sozinho — por isso é o recomendado.)
    2. A 3.2 não importa .mrpack sozinha — use a 4.0 pra importar, OU instale manual:
-      crie perfil Fabric 26.2 + loader 0.19.3 com diretório do jogo em:
+      crie perfil Fabric 26.2 + loader 0.19.5 com diretório do jogo em:
       /home/izeph/Games/Truebound/instance
       e rode: python3 baixar-mods.py (baixa mods/resourcepacks/shaderpacks pra instance/)
    3. Pasta instance/ aqui já vem com overrides/ extraídos (config + options.txt).

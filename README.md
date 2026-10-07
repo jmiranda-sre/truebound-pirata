@@ -1,4 +1,4 @@
-# Truebound 1.2.0 — Cliente + Servidor (MC 26.2 / Fabric 0.19.3)
+# Truebound 1.2.0 — Cliente + Servidor (MC 26.2 / Fabric 0.19.5)
 
 Fonte: https://modrinth.com/modpack/truebound (MIT) + 11 mods manuais/atualizados (lista em `instance.json`):
 Dynamic Crosshair, VeinMiner, FallingTree, DayCounter, Serene Seasons (+GlitchCore),
@@ -22,7 +22,7 @@ cd server
 # 1. mods (sem commitar .jar): 
 python3 baixar-mods-server.py
 # 2. instale o Fabric (gera server.jar + libraries):
-java -jar fabric-installer.jar server -mcversion 26.2 -loader 0.19.3 -downloadMinecraft
+java -jar fabric-installer.jar server -mcversion 26.2 -loader 0.19.5 -downloadMinecraft
 # 3. aceite a EULA (leia https://aka.ms/MinecraftEULA) e ligue:
 #    eula.txt -> eula=true
 chmod +x start.sh
