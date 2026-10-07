@@ -53,8 +53,6 @@ MANUAL = [
   "https://cdn.modrinth.com/data/P7dR8mSH/versions/ewUK83HI/fabric-api-0.161.0%2B26.2.jar"),
  ("PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar", 1153533,
   "https://cdn.modrinth.com/data/QAGBst4M/versions/aNOJuoCM/PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar"),
- ("naturalist-2.0.6-fabric-26.2.jar", 11406328,
-  "https://cdn.modrinth.com/data/F8BQNPWX/versions/zrGHo70e/naturalist-2.0.6-fabric-26.2.jar"),
  ("Terralith_26.2_v2.6.4.jar", 2974843,
   "https://cdn.modrinth.com/data/8oi3bsk5/versions/OxfI2n80/Terralith_26.2_v2.6.4.jar"),
  ("dungeons-and-taverns-5.3.2.jar", 39642964,
@@ -73,6 +71,7 @@ MANUAL = [
   "https://cdn.modrinth.com/data/V6LLU8Gf/versions/yyyqupBe/Katters%20Structures%20v2.5.jar"),
 ]
 REPLACE = {"biolith-fabric-3.6.0-alpha.9.jar", "ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar", "fabric-api-0.154.2+26.2.jar", "PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}  # do mrpack, substituido (quebra com TerraBlender novo)
+REMOVED = {"naturalist-2.0.6-fabric-26.2.jar"}
 UA = {"User-Agent": "Truebound-Server-Setup/1.0"}
 def get(url, dest, size=-1):
     if dest.exists() and size > 0 and dest.stat().st_size == size:
@@ -109,4 +108,9 @@ for name, size, url in MANUAL:
     except Exception as e:
         fail += 1
         print(f"FALHA mods/{name}: {e}", flush=True)
+for rem in REMOVED:
+    old = MODS / rem
+    if old.exists():
+        old.unlink()
+        print(f"REMOVIDO mods/{rem} (fora do pack)", flush=True)
 print(f"PRONTO servidor: {ok} ok, {fail} falhas -> {MODS}")

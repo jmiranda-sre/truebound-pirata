@@ -4,8 +4,8 @@ biomeBlendRadius:2
 chunkSectionFadeInTime:0.75
 cutoutLeaves:true
 enableVsync:true
-entityDistanceScaling:1.0
-entityShadows:true
+entityDistanceScaling:0.5
+entityShadows:false
 forceUnicodeFont:false
 japaneseGlyphVariants:false
 fov:1.0
@@ -22,8 +22,8 @@ gamma:0.0
 guiScale:2
 maxAnisotropyBit:1
 textureFiltering:1
-maxFps:120
-improvedTransparency:true
+maxFps:130
+improvedTransparency:false
 inactivityFpsLimit:"afk"
 mipmapLevels:0
 narrator:0
@@ -31,12 +31,12 @@ particles:0
 reducedDebugInfo:false
 renderClouds:"true"
 cloudRange:128
-renderDistance:32
-simulationDistance:32
+renderDistance:12
+simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
 vignette:true
-weatherRadius:10
+weatherRadius:3
 autoJump:false
 rotateWithMinecart:false
 operatorItemsTab:false

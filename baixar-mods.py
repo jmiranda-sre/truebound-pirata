@@ -18,8 +18,6 @@ MANUAL=[
   "https://cdn.modrinth.com/data/s3dmwKy5/versions/SDUCBYRU/GlitchCore-fabric-26.2-26.2.0.0.0.jar"),
  ("mods/zoomify-2.16.3+26.2.jar",563034,
   "https://cdn.modrinth.com/data/w7ThoJFB/versions/2Qr8jSFc/zoomify-2.16.3%2B26.2.jar"),
- ("mods/naturalist-2.0.6-fabric-26.2.jar",11406328,
-  "https://cdn.modrinth.com/data/F8BQNPWX/versions/zrGHo70e/naturalist-2.0.6-fabric-26.2.jar"),
  ("mods/controlify-3.5.3+mc26.2-universal.jar",6411915,
   "https://cdn.modrinth.com/data/DOUdJVEm/versions/VDw4mGkG/controlify-3.5.3%2Bmc26.2-universal.jar"),
  ("mods/Terralith_26.2_v2.6.4.jar",2974843,
@@ -61,6 +59,7 @@ MANUAL=[
 ]
 # Do mrpack, substituidos por versao manual (ex: biolith quebra com TerraBlender novo)
 REPLACE={"mods/biolith-fabric-3.6.0-alpha.9.jar","mods/ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar","mods/fabric-api-0.154.2+26.2.jar","mods/PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}
+REMOVED={"mods/naturalist-2.0.6-fabric-26.2.jar"}
 def fetch(url,dest,size=-1):
     if os.path.exists(dest) and size>0 and os.path.getsize(dest)==size:
         return True
@@ -91,4 +90,7 @@ for rel,size,url in MANUAL:
         ok+=1; print(f'OK {rel} (manual)',flush=True)
     except Exception as e:
         fail+=1; print(f'FALHA {rel}: {e}',flush=True)
+for rem in REMOVED:
+    dest=os.path.join(base,'instance',rem)
+    if os.path.exists(dest): os.remove(dest); print(f'REMOVIDO {rem} (fora do pack)',flush=True)
 print(f'PRONTO: {ok} ok, {fail} falhas')
