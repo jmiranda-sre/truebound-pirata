@@ -22,6 +22,8 @@ MANUAL=[
   "https://cdn.modrinth.com/data/F8BQNPWX/versions/zrGHo70e/naturalist-2.0.6-fabric-26.2.jar"),
  ("mods/controlify-3.5.3+mc26.2-universal.jar",6411915,
   "https://cdn.modrinth.com/data/DOUdJVEm/versions/VDw4mGkG/controlify-3.5.3%2Bmc26.2-universal.jar"),
+ ("mods/Terralith_26.2_v2.6.4.jar",2974843,
+  "https://cdn.modrinth.com/data/8oi3bsk5/versions/OxfI2n80/Terralith_26.2_v2.6.4.jar"),
  ("mods/biolith-fabric-3.7.0-beta.1.jar",237369,
   "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar"),
  ("mods/ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar",41129,
