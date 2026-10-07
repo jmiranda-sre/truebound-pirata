@@ -3,10 +3,10 @@ Truebound 1.2.0 — Vanilla expandida (Minecraft 26.2 + Fabric 0.19.3)
 Fonte oficial: https://modrinth.com/modpack/truebound (MIT, ~19.8 mil downloads)
 Arquivo: Truebound.mrpack (é o modpack — os 101 arquivos, 404 MB, baixam na importação)
 
-O QUE TEM (101 arquivos + 3 manuais):
-- Mods: 70 (67 do pack + 3 manuais: Dynamic Crosshair 9.14 — mira muda conforme o alvo;
-  VeinMiner 2.12.1 Fabric — minera veios inteiros com sneak/custom key;
-  FallingTree 26.2.0.3 — derruba árvore inteira quebrando 1 tronco.
+O QUE TEM (101 arquivos + 11 manuais/atualizados, detalhe em instance.json):
+- Mods: 74 (63 do pack + 11: Dynamic Crosshair 9.14; VeinMiner 2.12.1; FallingTree 26.2.0.3;
+  DayCounter 1.0; Serene Seasons 26.1.2.0.6 + GlitchCore; Zoomify 2.16.3 (só cliente);
+  atualizados Biolith 3.7.0, ClimateRivers 26.2.1, Fabric API 0.161, PuzzlesLib 26.2.4.
   Base: Voxy + Chunky p/ render extrema, Iris, Sodium, Presence Footsteps, Sound Physics,
   Not Enough Animations, Tectonic, Continuity, LambDynamicLights, etc.)
 - Resourcepacks: 26 (Fresh Animations completo, Connected Bricks/Paths/Rocks, Better Lanterns,

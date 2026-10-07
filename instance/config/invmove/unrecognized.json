@@ -13,7 +13,8 @@
     "net.bivrik.fancytoasts.client.gui.screen.FancyToastsScreen": true,
     "net.minecraft.client.gui.screens.options.SkinCustomizationScreen": true,
     "net.minecraft.client.gui.screens.ConfirmLinkScreen": true,
-    "net.minecraft.client.gui.screens.friends.FriendsListConfirmScreen": true
+    "net.minecraft.client.gui.screens.friends.FriendsListConfirmScreen": true,
+    "dev.terminalmc.clientsort.client.gui.screen.edit.PlayerEditorScreen": true
   },
   "hideBackground": {
     "net.minecraft.client.gui.screens.inventory.CrafterScreen": true

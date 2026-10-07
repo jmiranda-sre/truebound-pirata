@@ -29,6 +29,7 @@ server/mods/*.jar
 server/mods/*.disabled
 server/world/
 server/truebound-new/
+server/truebound-s2/
 server/logs/
 server/crash-reports/
 server/hs_err_*.log

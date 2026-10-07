@@ -1,17 +1,18 @@
 # Truebound 1.2.0 — Cliente + Servidor (MC 26.2 / Fabric 0.19.3)
 
-Fonte: https://modrinth.com/modpack/truebound (MIT) + 3 mods manuais:
+Fonte: https://modrinth.com/modpack/truebound (MIT) + 11 mods manuais/atualizados (lista em `instance.json`):
+Dynamic Crosshair, VeinMiner, FallingTree, DayCounter, Serene Seasons (+GlitchCore),
+Biolith 3.7.0, ClimateRivers 26.2.1, Fabric API 0.161, PuzzlesLib 26.2.4, Zoomify.
 Dynamic Crosshair 9.14 (client), VeinMiner 2.12.1 + FallingTree 26.2.0.3 (client+server).
 
 ## Pastas
-- `instance/` — cliente isolado SKLauncher (70 mods: 68 ativos + 2 .disabled)
-- `server/` — Fabric espelhado (39 mods server-side, mundo novo `truebound-new`)
+- `instance/` — cliente isolado SKLauncher (74 arquivos: 72 ativos + 2 .disabled)
+- `server/` — Fabric espelhado (42 mods server-side, mundo `truebound-s2`, seed `31415926`)
 - `Truebound.mrpack` — pack original 1.2.0 (2.6MB)
 
 ## Cliente (SKLauncher pirata/offline)
 1. SKLauncher 4.0 > Importar `Truebound.mrpack` **ou** aponte o diretório do jogo para `instance/`
-2. Copie os 3 `.jar` manuais para `instance/mods/` (já estão aqui):
-   `dynamiccrosshair-9.14+26.2-fabric.jar`, `veinminer-fabric-2.12.1.jar`, `FallingTree-26.2-25.jar`
+2. Rode `python3 baixar-mods.py` na raiz — baixa os 101 do pack + 11 manuais (lista em `instance.json`)
 3. Java 25+ obrigatório: `sudo pacman -S jdk25-openjdk` (SKLauncher 4 baixa sozinho)
 4. Server IP: `localhost:25565` (ou IP do host). online-mode=false aceita nick offline.
 
