@@ -6,7 +6,7 @@
   "loader": "fabric-loader 0.19.3",
   "source": "https://modrinth.com/modpack/truebound",
   "mrpack": "Truebound.mrpack",
-  "mods": 77,
+  "mods": 83,
   "resourcepacks": 26,
   "shaderpacks": 8,
   "totalSizeMB": 405.7,
@@ -24,6 +24,12 @@
     "zoomify-2.16.3+26.2.jar (Zoomify 2.16.3, zoom com scroll, client-side)",
     "naturalist-2.0.6-fabric-26.2.jar (Naturalist 2.0.6, animais novos, server+client)",
     "controlify-3.5.3+mc26.2-universal.jar (Controlify 3.5.3, suporte a controle, client-side)",
-    "Terralith_26.2_v2.6.4.jar (Terralith 2.6.4, worldgen, server+client)"
+    "Terralith_26.2_v2.6.4.jar (Terralith 2.6.4, worldgen, server+client)",
+    "dungeons-and-taverns-5.3.2.jar (Dungeons and Taverns 5.3.2, estruturas, server+client)",
+    "dungeons-and-taverns-ancient-city-overhaul-3.4.jar (DnT Ancient City, server+client)",
+    "dungeons-and-taverns-stronghold-overhaul-v2.4.0.jar (DnT Stronghold, server+client)",
+    "dungeons-and-taverns-pillager-outpost-overhaul-v3.3.jar (DnT Outpost, server+client)",
+    "dungeons-and-taverns-woodland-mansion-overhaul-2.1.jar (DnT Mansion, server+client)",
+    "dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar (DnT Swamp Hut, server+client)"
   ]
 }

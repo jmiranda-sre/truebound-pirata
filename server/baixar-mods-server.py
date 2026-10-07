@@ -57,6 +57,18 @@ MANUAL = [
   "https://cdn.modrinth.com/data/F8BQNPWX/versions/zrGHo70e/naturalist-2.0.6-fabric-26.2.jar"),
  ("Terralith_26.2_v2.6.4.jar", 2974843,
   "https://cdn.modrinth.com/data/8oi3bsk5/versions/OxfI2n80/Terralith_26.2_v2.6.4.jar"),
+ ("dungeons-and-taverns-5.3.2.jar", 39642964,
+  "https://cdn.modrinth.com/data/tpehi7ww/versions/y9AUViOD/dungeons-and-taverns-5.3.2.jar"),
+ ("dungeons-and-taverns-ancient-city-overhaul-3.4.jar", 1070006,
+  "https://cdn.modrinth.com/data/DNuNq5bb/versions/LdVOQBQG/dungeons-and-taverns-ancient-city-overhaul-3.4.jar"),
+ ("dungeons-and-taverns-stronghold-overhaul-v2.4.0.jar", 3254963,
+  "https://cdn.modrinth.com/data/rYocd2LE/versions/PhiBm7he/dungeons-and-taverns-stronghold-overhaul-v2.4.0.jar"),
+ ("dungeons-and-taverns-pillager-outpost-overhaul-v3.3.jar", 451522,
+  "https://cdn.modrinth.com/data/QIt10I7z/versions/GPXkMYNM/dungeons-and-taverns-pillager-outpost-overhaul-v3.3.jar"),
+ ("dungeons-and-taverns-woodland-mansion-overhaul-2.1.jar", 5864747,
+  "https://cdn.modrinth.com/data/3GfxWFCy/versions/zg7f1Hac/dungeons-and-taverns-woodland-mansion-overhaul-2.1.jar"),
+ ("dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar", 118784,
+  "https://cdn.modrinth.com/data/nWSeFpQt/versions/CMdKBcpG/dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar"),
 ]
 REPLACE = {"biolith-fabric-3.6.0-alpha.9.jar", "ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar", "fabric-api-0.154.2+26.2.jar", "PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}  # do mrpack, substituido (quebra com TerraBlender novo)
 UA = {"User-Agent": "Truebound-Server-Setup/1.0"}
