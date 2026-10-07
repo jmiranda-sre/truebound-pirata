@@ -53,6 +53,8 @@ MANUAL = [
   "https://cdn.modrinth.com/data/P7dR8mSH/versions/ewUK83HI/fabric-api-0.161.0%2B26.2.jar"),
  ("PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar", 1153533,
   "https://cdn.modrinth.com/data/QAGBst4M/versions/aNOJuoCM/PuzzlesLib-v26.2.4-mc26.2.x-Fabric.jar"),
+ ("naturalist-2.0.6-fabric-26.2.jar", 11406328,
+  "https://cdn.modrinth.com/data/F8BQNPWX/versions/zrGHo70e/naturalist-2.0.6-fabric-26.2.jar"),
 ]
 REPLACE = {"biolith-fabric-3.6.0-alpha.9.jar", "ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar", "fabric-api-0.154.2+26.2.jar", "PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}  # do mrpack, substituido (quebra com TerraBlender novo)
 UA = {"User-Agent": "Truebound-Server-Setup/1.0"}

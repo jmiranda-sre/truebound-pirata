@@ -18,6 +18,8 @@ MANUAL=[
   "https://cdn.modrinth.com/data/s3dmwKy5/versions/SDUCBYRU/GlitchCore-fabric-26.2-26.2.0.0.0.jar"),
  ("mods/zoomify-2.16.3+26.2.jar",563034,
   "https://cdn.modrinth.com/data/w7ThoJFB/versions/2Qr8jSFc/zoomify-2.16.3%2B26.2.jar"),
+ ("mods/naturalist-2.0.6-fabric-26.2.jar",11406328,
+  "https://cdn.modrinth.com/data/F8BQNPWX/versions/zrGHo70e/naturalist-2.0.6-fabric-26.2.jar"),
  ("mods/biolith-fabric-3.7.0-beta.1.jar",237369,
   "https://cdn.modrinth.com/data/iGEl6Crx/versions/qSLRk6dS/biolith-fabric-3.7.0-beta.1.jar"),
  ("mods/ClimateRivers-v26.2.1-mc26.2.x-Fabric.jar",41129,
