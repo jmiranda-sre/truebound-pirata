@@ -55,3 +55,4 @@ server/.playit-secret
 server/playit.log
 **/debug/
 server/.rcon-pass
+server/parkour-spiral/
