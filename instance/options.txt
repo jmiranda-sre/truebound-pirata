@@ -18,7 +18,7 @@ graphicsPreset:"custom"
 prioritizeChunkUpdates:1
 fullscreen:true
 exclusiveFullscreen:true
-gamma:1.0
+gamma:0.0
 guiScale:2
 maxAnisotropyBit:1
 textureFiltering:1
@@ -29,10 +29,10 @@ mipmapLevels:0
 narrator:0
 particles:0
 reducedDebugInfo:false
-renderClouds:"false"
-cloudRange:2
-renderDistance:8
-simulationDistance:8
+renderClouds:"true"
+cloudRange:128
+renderDistance:12
+simulationDistance:12
 screenEffectScale:1.0
 soundDevice:""
 vignette:true
@@ -199,7 +199,7 @@ key_iris.keybind.shaderPackSelection:key.keyboard.right.bracket
 key_iris.keybind.wireframe:key.keyboard.unknown
 key_key.fancytoasts.config_menu:key.keyboard.k
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
-soundCategory_master:0.5
+soundCategory_master:0.1076158940397351
 soundCategory_music:0.0
 soundCategory_record:1.0
 soundCategory_weather:1.0

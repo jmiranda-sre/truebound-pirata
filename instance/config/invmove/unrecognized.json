@@ -16,7 +16,8 @@
     "net.minecraft.client.gui.screens.friends.FriendsListConfirmScreen": true,
     "dev.terminalmc.clientsort.client.gui.screen.edit.PlayerEditorScreen": true,
     "net.minecraft.client.gui.screens.dialog.MultiButtonDialogScreen": true,
-    "net.minecraft.client.gui.screens.dialog.DialogListDialogScreen": true
+    "net.minecraft.client.gui.screens.dialog.DialogListDialogScreen": true,
+    "net.bivrik.fancytoasts.client.gui.screen.ToastConfigScreen": true
   },
   "hideBackground": {
     "net.minecraft.client.gui.screens.inventory.CrafterScreen": true
