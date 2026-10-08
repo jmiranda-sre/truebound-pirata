@@ -36,8 +36,6 @@ MANUAL=[
   "https://cdn.modrinth.com/data/nWSeFpQt/versions/CMdKBcpG/dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar"),
  ("mods/Katters Structures v2.5.jar",5515665,
   "https://cdn.modrinth.com/data/V6LLU8Gf/versions/yyyqupBe/Katters%20Structures%20v2.5.jar"),
- ("mods/CustomSkinLoader_Universal-15.0.1.jar",218215,
-  "https://cdn.modrinth.com/data/idMHQ4n2/versions/OLaesh5y/CustomSkinLoader_Universal-15.0.1.jar"),
  ("shaderpacks/I Like Vanilla v1.5.0b.zip",334513,
   "https://cdn.modrinth.com/data/DoODk4HD/versions/lrndU3YJ/I%20Like%20Vanilla%20v1.5.0b.zip"),
  ("shaderpacks/Visual-Vibrance-v0.3.5a.zip",4571188,
@@ -61,7 +59,7 @@ MANUAL=[
 ]
 # Do mrpack, substituidos por versao manual (ex: biolith quebra com TerraBlender novo)
 REPLACE={"mods/biolith-fabric-3.6.0-alpha.9.jar","mods/ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar","mods/fabric-api-0.154.2+26.2.jar","mods/PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}
-REMOVED={"mods/naturalist-2.0.6-fabric-26.2.jar"}
+REMOVED={"mods/naturalist-2.0.6-fabric-26.2.jar","mods/CustomSkinLoader_Universal-15.0.1.jar"}
 def fetch(url,dest,size=-1):
     if os.path.exists(dest) and size>0 and os.path.getsize(dest)==size:
         return True

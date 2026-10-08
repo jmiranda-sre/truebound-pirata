@@ -2,29 +2,29 @@
   "stats": {
     "minecraft:custom": {
       "minecraft:damage_resisted": 451180,
-      "minecraft:time_since_rest": 610,
-      "minecraft:walk_one_cm": 29833,
-      "minecraft:damage_taken": 404,
-      "minecraft:play_time": 16993,
+      "minecraft:time_since_rest": 932,
+      "minecraft:walk_one_cm": 47232,
+      "minecraft:damage_taken": 42174,
+      "minecraft:play_time": 26196,
       "minecraft:damage_dealt": 207,
-      "minecraft:jump": 264,
-      "minecraft:time_since_death": 601,
+      "minecraft:jump": 566,
+      "minecraft:time_since_death": 925,
       "minecraft:drop": 4,
-      "minecraft:sprint_one_cm": 35728,
-      "minecraft:fall_one_cm": 8101,
-      "minecraft:total_world_time": 16993,
-      "minecraft:fly_one_cm": 50394,
-      "minecraft:walk_on_water_one_cm": 4634,
-      "minecraft:crouch_one_cm": 684,
-      "minecraft:sneak_time": 338,
-      "minecraft:deaths": 2
+      "minecraft:sprint_one_cm": 125113,
+      "minecraft:fall_one_cm": 32026,
+      "minecraft:total_world_time": 26196,
+      "minecraft:fly_one_cm": 120168,
+      "minecraft:walk_on_water_one_cm": 5889,
+      "minecraft:crouch_one_cm": 2587,
+      "minecraft:sneak_time": 720,
+      "minecraft:deaths": 12
+    },
+    "minecraft:dropped": {
+      "minecraft:bread": 192
     },
     "minecraft:mined": {
       "minecraft:short_grass": 1,
       "minecraft:jungle_leaves": 1
-    },
-    "minecraft:dropped": {
-      "minecraft:bread": 192
     }
   },
   "DataVersion": 4903
