@@ -14,7 +14,8 @@
     "net.minecraft.client.gui.screens.options.SkinCustomizationScreen": true,
     "net.minecraft.client.gui.screens.ConfirmLinkScreen": true,
     "net.minecraft.client.gui.screens.friends.FriendsListConfirmScreen": true,
-    "dev.terminalmc.clientsort.client.gui.screen.edit.PlayerEditorScreen": true
+    "dev.terminalmc.clientsort.client.gui.screen.edit.PlayerEditorScreen": true,
+    "net.minecraft.client.gui.screens.dialog.MultiButtonDialogScreen": true
   },
   "hideBackground": {
     "net.minecraft.client.gui.screens.inventory.CrafterScreen": true

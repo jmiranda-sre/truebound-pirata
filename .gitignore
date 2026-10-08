@@ -54,3 +54,4 @@ fabric-server-launcher.properties
 server/.playit-secret
 server/playit.log
 **/debug/
+server/.rcon-pass

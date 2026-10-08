@@ -22,7 +22,7 @@
   "devices": {
     "3f75a306e85c185481c8e98e9d356e32": {
       "name": "Xbox Controller",
-      "last_seen": 1791387343471,
+      "last_seen": 1791426802333,
       "controller_type": "controlify:xbox_one",
       "gyro_calibration": {}
     }
