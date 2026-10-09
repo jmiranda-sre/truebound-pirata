@@ -6,7 +6,7 @@
   "loader": "fabric-loader 0.19.5",
   "source": "https://modrinth.com/modpack/truebound",
   "mrpack": "Truebound.mrpack",
-  "mods": 86,
+  "mods": 87,
   "resourcepacks": 27,
   "shaderpacks": 14,
   "totalSizeMB": 405.7,
