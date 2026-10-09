@@ -40,6 +40,8 @@ MANUAL=[
   "https://cdn.modrinth.com/data/V6LLU8Gf/versions/yyyqupBe/Katters%20Structures%20v2.5.jar"),
  ("mods/fpsdisplay-5.1.0+26.2.jar",144011,
   "https://cdn.modrinth.com/data/DIlqwRFH/versions/inkvL2AV/fpsdisplay-5.1.0%2B26.2.jar"),
+ ("mods/atmospherics-2.6.6-mc-26.2.jar",2804329,
+  "https://cdn.modrinth.com/data/ft2cYBpB/versions/wJSd2gZD/atmospherics-2.6.6-mc-26.2.jar"),
  ("mods/lostcities-fabric-26.2-26.2-11.0.3-fabric.jar",1449996,
   "https://cdn.modrinth.com/data/8VDCUS3b/versions/CwCaAjVk/lostcities-fabric-26.2-26.2-11.0.3-fabric.jar"),
  ("shaderpacks/I Like Vanilla v1.5.0b.zip",334513,
@@ -67,7 +69,7 @@ MANUAL=[
 ]
 # Do mrpack, substituidos por versao manual (ex: biolith quebra com TerraBlender novo)
 REPLACE={"mods/biolith-fabric-3.6.0-alpha.9.jar","mods/ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar","mods/fabric-api-0.154.2+26.2.jar","mods/PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}
-REMOVED={"mods/CustomSkinLoader_Universal-15.0.1.jar"}
+REMOVED={"mods/CustomSkinLoader_Universal-15.0.1.jar","mods/particlerain-4.0.0-beta.10+26.1-fabric.jar.disabled"}
 def fetch(url,dest,size=-1):
     if os.path.exists(dest) and size>0 and os.path.getsize(dest)==size:
         return True

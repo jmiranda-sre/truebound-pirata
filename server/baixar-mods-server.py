@@ -75,7 +75,7 @@ MANUAL = [
   "https://cdn.modrinth.com/data/8VDCUS3b/versions/CwCaAjVk/lostcities-fabric-26.2-26.2-11.0.3-fabric.jar"),
 ]
 REPLACE = {"biolith-fabric-3.6.0-alpha.9.jar", "ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar", "fabric-api-0.154.2+26.2.jar", "PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}  # do mrpack, substituido (quebra com TerraBlender novo)
-REMOVED = set()
+REMOVED = {"particlerain-4.0.0-beta.10+26.1-fabric.jar.disabled"}
 UA = {"User-Agent": "Truebound-Server-Setup/1.0"}
 def get(url, dest, size=-1):
     if dest.exists() and size > 0 and dest.stat().st_size == size:
