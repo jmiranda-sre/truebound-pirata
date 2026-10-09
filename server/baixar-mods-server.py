@@ -69,6 +69,8 @@ MANUAL = [
   "https://cdn.modrinth.com/data/nWSeFpQt/versions/CMdKBcpG/dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar"),
  ("Katters Structures v2.5.jar", 5515665,
   "https://cdn.modrinth.com/data/V6LLU8Gf/versions/yyyqupBe/Katters%20Structures%20v2.5.jar"),
+ ("lostcities-fabric-26.2-26.2-11.0.3-fabric.jar", 1449996,
+  "https://cdn.modrinth.com/data/8VDCUS3b/versions/CwCaAjVk/lostcities-fabric-26.2-26.2-11.0.3-fabric.jar"),
 ]
 REPLACE = {"biolith-fabric-3.6.0-alpha.9.jar", "ClimateRivers-v26.2.0-mc26.2.x-Fabric.jar", "fabric-api-0.154.2+26.2.jar", "PuzzlesLib-v26.2.0-mc26.2.x-Fabric.jar"}  # do mrpack, substituido (quebra com TerraBlender novo)
 REMOVED = {"naturalist-2.0.6-fabric-26.2.jar"}

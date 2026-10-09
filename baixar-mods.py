@@ -38,6 +38,8 @@ MANUAL=[
   "https://cdn.modrinth.com/data/V6LLU8Gf/versions/yyyqupBe/Katters%20Structures%20v2.5.jar"),
  ("mods/fpsdisplay-5.1.0+26.2.jar",144011,
   "https://cdn.modrinth.com/data/DIlqwRFH/versions/inkvL2AV/fpsdisplay-5.1.0%2B26.2.jar"),
+ ("mods/lostcities-fabric-26.2-26.2-11.0.3-fabric.jar",1449996,
+  "https://cdn.modrinth.com/data/8VDCUS3b/versions/CwCaAjVk/lostcities-fabric-26.2-26.2-11.0.3-fabric.jar"),
  ("shaderpacks/I Like Vanilla v1.5.0b.zip",334513,
   "https://cdn.modrinth.com/data/DoODk4HD/versions/lrndU3YJ/I%20Like%20Vanilla%20v1.5.0b.zip"),
  ("shaderpacks/Visual-Vibrance-v0.3.5a.zip",4571188,
