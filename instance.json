@@ -6,7 +6,7 @@
   "loader": "fabric-loader 0.19.5",
   "source": "https://modrinth.com/modpack/truebound",
   "mrpack": "Truebound.mrpack",
-  "mods": 85,
+  "mods": 86,
   "resourcepacks": 27,
   "shaderpacks": 14,
   "totalSizeMB": 405.7,
@@ -32,6 +32,7 @@
     "dungeons-and-taverns-swamp-hut-overhaul-v2.3.jar (DnT Swamp Hut, server+client)",
     "Katters Structures v2.5.jar (Katters Structures 2.5, estruturas, server+client)",
     "fpsdisplay-5.1.0+26.2.jar (FPS Display, so fps no canto, client-side)",
-    "lostcities-fabric-26.2-26.2-11.0.3-fabric.jar (Lost Cities 11.0.3, cidades apocalipticas, server+client)"
+    "lostcities-fabric-26.2-26.2-11.0.3-fabric.jar (Lost Cities 11.0.3, cidades apocalipticas, server+client)",
+    "naturalist-2.0.6-fabric-26.2.jar (Naturalist 2.0.6, animais novos, server+client)"
   ]
 }
