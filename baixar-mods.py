@@ -46,6 +46,8 @@ MANUAL=[
   "https://cdn.modrinth.com/data/l6Uqs2fS/versions/zGC385Y8/Visual-Vibrance-v0.3.5a.zip"),
  ("shaderpacks/Fantasy Shaders Unbound v1.1.zip",492947,
   "https://cdn.modrinth.com/data/Q1ICdkzj/versions/xncGr4KP/Fantasy%20Shaders%20Unbound%20v1.1.zip"),
+ ("resourcepacks/Horror Ambience Forgotten Tunes 1.3.zip",106972620,
+  "https://cdn.modrinth.com/data/SLE5LDgf/versions/6euH3HfN/Horror%20Ambience%20Forgotten%20Tunes%201.3.zip"),
  ("shaderpacks/Cursed Fog - V1.0.10.zip",74846,
   "https://cdn.modrinth.com/data/sAZ9WsJP/versions/9yVXZsfs/Cursed%20Fog%20-%20V1.0.10.zip"),
  ("shaderpacks/Sildur's Vibrant Shaders v2.02 Medium.zip",251385,
