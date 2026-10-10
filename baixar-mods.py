@@ -40,6 +40,8 @@ MANUAL=[
   "https://cdn.modrinth.com/data/V6LLU8Gf/versions/yyyqupBe/Katters%20Structures%20v2.5.jar"),
  ("mods/fpsdisplay-5.1.0+26.2.jar",144011,
   "https://cdn.modrinth.com/data/DIlqwRFH/versions/inkvL2AV/fpsdisplay-5.1.0%2B26.2.jar"),
+ ("mods/particlerain-4.0.2+26.2-fabric.jar",627184,
+  "https://cdn.modrinth.com/data/nrikgvxm/versions/gTJ6PTp4/particlerain-4.0.2%2B26.2-fabric.jar"),
  ("mods/atmospherics-2.6.6-mc-26.2.jar",2804329,
   "https://cdn.modrinth.com/data/ft2cYBpB/versions/wJSd2gZD/atmospherics-2.6.6-mc-26.2.jar"),
  ("mods/lostcities-fabric-26.2-26.2-11.0.3-fabric.jar",1449996,

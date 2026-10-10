@@ -34,6 +34,7 @@
     "fpsdisplay-5.1.0+26.2.jar (FPS Display, so fps no canto, client-side)",
     "lostcities-fabric-26.2-26.2-11.0.3-fabric.jar (Lost Cities 11.0.3, cidades apocalipticas, server+client)",
     "naturalist-2.0.6-fabric-26.2.jar (Naturalist 2.0.6, animais novos, server+client)",
-    "atmospherics-2.6.6-mc-26.2.jar (Atmospherics 2.6.6, ceu/nuvens, client-side)"
+    "atmospherics-2.6.6-mc-26.2.jar (Atmospherics 2.6.6, ceu/nuvens, client-side)",
+    "particlerain-4.0.2+26.2-fabric.jar (Particle Rain 4.0.2 p/ 26.2, substitui beta desativada)"
   ]
 }
